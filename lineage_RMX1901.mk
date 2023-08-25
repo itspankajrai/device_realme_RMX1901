@@ -9,11 +9,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 
-# Inherit some common derp stuff.
+# Inherit some common Rising stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # maintainer flag (one word only/no spacing)
-RISING_MAINTAINER := HimJT
+RISING_MAINTAINER := SHRAVAN
 
 # chipset flag (one word only/no spacing)
 RISING_CHIPSET := sdm710
@@ -33,7 +33,7 @@ TARGET_HAS_UDFPS := true
 
 
 # Aperture Camera (default: not defined - skipped by the compiler)
-TARGET_EXCLUDES_APERTURE := false
+TARGET_EXCLUDES_APERTURE := true
 
 # Wether to use google (true) or AOSP (false) telephony package bundle. (defaults: false for gms core, true for pixel builds)
 TARGET_USE_GOOGLE_TELEPHONY := true
@@ -60,12 +60,12 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="cheetah-user 13 TQ2A.230505.002 9891397 release-keys" \
+    PRIVATE_BUILD_DESC="cheetah-user 13 TQ2A.230805.001 10316531 release-keys" \
     PRODUCT_NAME="RMX1901" \
     TARGET_DEVICE="RMX1901"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := google/cheetah/cheetah:13/TQ2A.230505.002/9891397:user/release-keys
+BUILD_FINGERPRINT := google/cheetah/cheetah:13/TQ2A.230805.001/10316531:user/release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
