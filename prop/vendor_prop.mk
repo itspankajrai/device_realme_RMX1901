@@ -154,6 +154,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gralloc.disable_ahardware_buffer=1 \
     debug.sf.disable_client_composition_cache=1 \
     debug.sf.predict_hwc_composition_strategy=0 \
+    debug.sf.disable_client_composition_cache=1 \
     ro.hardware.egl=adreno \
     ro.hardware.vulkan=adreno \
     debug.sdm.support_writeback=0 \
