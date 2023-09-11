@@ -31,10 +31,6 @@ TARGET_ENABLE_BLUR := true
 # UDFPS ICONS/ANIMATIONS
 TARGET_HAS_UDFPS := true
 
-
-# Aperture Camera (default: not defined - skipped by the compiler)
-TARGET_EXCLUDES_APERTURE := true
-
 # Wether to use google (true) or AOSP (false) telephony package bundle. (defaults: false for gms core, true for pixel builds)
 TARGET_USE_GOOGLE_TELEPHONY := true
 
