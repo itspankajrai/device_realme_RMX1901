@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX1901.mk
+    $(LOCAL_DIR)/spark_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_RMX1901-userdebug \
-    lineage_RMX1901-eng
+    spark_RMX1901-userdebug \
+    spark_RMX1901-eng
 
