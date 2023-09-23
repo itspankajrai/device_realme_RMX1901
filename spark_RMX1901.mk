@@ -21,8 +21,6 @@ EXTRA_UDFPS_ANIMATIONS := true
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
 TARGET_EXCLUDES_AUDIOFX := true
-PRODUCT_SYSTM_DEFAULT_PROPERTIES += \
-    ro.spark.maintainer=SHRAVAN
 
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
